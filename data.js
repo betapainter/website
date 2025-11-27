@@ -7,7 +7,7 @@ const miniaturesData = [
     fecha: "Septiembre 2025",
     reconocimientos: ["Freak Wars 2025 - Oro en Busto Standard", "Ceramic Brush 2025 - Entrada Notable"],
     tipo: "Miniaturas",
-    imagenPrincipal: "public/images/quijote/1.jpg",
+    imagenPrincipal: "public/images/quijote/main.jpg",
     imagenes: ["public/images/quijote/1.jpg", "public/images/quijote/2.jpg", "public/images/quijote/3.jpg", "public/images/quijote/4.jpg",
       "public/images/quijote/1w.jpg", "public/images/quijote/2w.jpg", "public/images/quijote/3w.jpg", "public/images/quijote/4w.jpg"
     ],

@@ -9,8 +9,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Álvaro Palacios - Pintor de Miniaturas",
-  description:
-    "Galería de miniaturas y warhammer pintadas por Álvaro Palacios. Descubre trabajos detallados y aprende técnicas de pintura.",
+  description: "Galería de miniaturas pintadas",
   generator: "v0.app",
   icons: {
     icon: [
@@ -38,16 +37,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <head>
-        {/* Font Awesome CDN */}
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-          crossOrigin="anonymous"
-          referrerPolicy="no-referrer"
-        />
-      </head>
       <body className={`font-sans antialiased`}>
         {children}
         <Analytics />

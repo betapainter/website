@@ -13,17 +13,14 @@ export const miniaturesData: Miniature[] = [
   },
   {
     id: 2,
-    nombre: "Elfo Silvano",
+    nombre: "Mandaloriano",
     descripcion:
-      "Miniatura de fantasía representando un elfo silvano con capa verde y arco. Destaca el trabajo en NMM (Non-Metallic Metal) en las flechas y el nivel de detalle en la vegetación de la base.",
-    fecha: "Diciembre 2023",
-    reconocimientos: ["Finalista - Concurso Nacional de Miniaturas"],
+      "Mi interpretación pintada del icónico busto del Mandaloriano (Din Djarin) de la serie Star Wars. El enfoque principal fue lograr texturas metálicas realistas para la armadura Beskar y aplicar efectos de desgaste (polvo, desconchones) para reflejar sus duras travesías. Este es el camino. Escultura por SkullHill",
+    fecha: "Marzo 2025",
+    reconocimientos: ["Freak Wars 2025 - Oro en Busto Standard", "Ceramic Brush 2025 - Entrada Notable"],
     tipo: "Miniaturas",
-    imagenPrincipal: "/placeholder.svg?height=800&width=600",
+    imagenPrincipal: "",
     imagenes: [
-      "/placeholder.svg?height=800&width=600",
-      "/placeholder.svg?height=800&width=600",
-      "/placeholder.svg?height=800&width=600",
       "/placeholder.svg?height=800&width=600",
     ],
   },

@@ -69,13 +69,13 @@ export default function MiniatureModal({ miniature, onClose }: MiniatureModalPro
               <>
                 <button
                   onClick={previousImage}
-                  className="absolute left-4 top-1/2 -translate-y-1/2 p-2 bg-[#00BCD4] hover:bg-[#00ACC1] text-white rounded-md transition-colors"
+                  className="absolute left-4 top-1/2 -translate-y-1/2 p-2 bg-[#0cd4ca] hover:bg-[#0bc0b6] text-white rounded-md transition-colors"
                 >
                   <ChevronLeft className="w-6 h-6" />
                 </button>
                 <button
                   onClick={nextImage}
-                  className="absolute right-4 top-1/2 -translate-y-1/2 p-2 bg-[#00BCD4] hover:bg-[#00ACC1] text-white rounded-md transition-colors"
+                  className="absolute right-4 top-1/2 -translate-y-1/2 p-2 bg-[#0cd4ca] hover:bg-[#0bc0b6] text-white rounded-md transition-colors"
                 >
                   <ChevronRight className="w-6 h-6" />
                 </button>
@@ -108,7 +108,7 @@ export default function MiniatureModal({ miniature, onClose }: MiniatureModalPro
                   <ul className="space-y-2">
                     {miniature.reconocimientos.map((reconocimiento, index) => (
                       <li key={index} className="flex items-start gap-2 text-[#1D1D1D]">
-                        <span className="text-[#00BCD4] mt-1">•</span>
+                        <span className="text-[#0cd4ca] mt-1">•</span>
                         <span>{reconocimiento}</span>
                       </li>
                     ))}
@@ -118,7 +118,7 @@ export default function MiniatureModal({ miniature, onClose }: MiniatureModalPro
 
               <div>
                 <h3 className="text-sm font-semibold text-[#1D1D1D] uppercase tracking-wider mb-2">Tipo</h3>
-                <span className="inline-block px-3 py-1 bg-[#00BCD4] text-white text-sm rounded-md">
+                <span className="inline-block px-3 py-1 bg-[#0cd4ca] text-white text-sm rounded-md">
                   {miniature.tipo}
                 </span>
               </div>
@@ -136,7 +136,7 @@ export default function MiniatureModal({ miniature, onClose }: MiniatureModalPro
                       key={index}
                       onClick={() => setCurrentImageIndex(index)}
                       className={`relative aspect-[3/4] overflow-hidden rounded-md ${
-                        currentImageIndex === index ? "ring-2 ring-[#00BCD4]" : "opacity-60 hover:opacity-100"
+                        currentImageIndex === index ? "ring-2 ring-[#0cd4ca]" : "opacity-60 hover:opacity-100"
                       } transition-opacity`}
                     >
                       <Image

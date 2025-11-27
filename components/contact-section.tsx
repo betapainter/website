@@ -9,7 +9,7 @@ export default function ContactSection() {
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#1D1D1D] hover:text-[#00BCD4] transition-colors"
+            className="text-[#1D1D1D] hover:text-[#0cd4ca] transition-colors"
             aria-label="Instagram"
           >
             <i className="fab fa-instagram fa-3x"></i>
@@ -17,7 +17,7 @@ export default function ContactSection() {
 
           <a
             href="mailto:beta.painter.miniatures@gmail.com"
-            className="text-[#1D1D1D] hover:text-[#00BCD4] transition-colors"
+            className="text-[#1D1D1D] hover:text-[#0cd4ca] transition-colors"
             aria-label="Email"
           >
             <i className="fas fa-envelope fa-3x"></i>

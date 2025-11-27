@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export default function HeroSection() {
   return (
@@ -7,11 +8,8 @@ export default function HeroSection() {
       className="min-h-screen flex flex-col items-center justify-center px-4 bg-[#1D1D1D] text-[#F7F7F7]"
     >
       <div className="max-w-4xl mx-auto text-center space-y-8">
-        {/* Logo placeholder */}
-        <div className="w-32 h-32 mx-auto mb-6">
-          <div className="w-full h-full rounded-full bg-[#00BCD4] flex items-center justify-center text-4xl font-bold text-white">
-            AP
-          </div>
+        <div className="w-48 h-48 mx-auto mb-6 relative">
+          <Image src="/images/logo_bruto.png" alt="Álvaro Palacios Logo" fill className="object-contain" priority />
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-pretty">Álvaro Palacios</h1>
@@ -21,7 +19,7 @@ export default function HeroSection() {
         </p>
 
         <div className="pt-8">
-          <Button asChild size="lg" className="bg-[#00BCD4] hover:bg-[#00ACC1] text-white text-lg px-8 py-6 rounded-md">
+          <Button asChild size="lg" className="bg-[#0cd4ca] hover:bg-[#0bc0b6] text-white text-lg px-8 py-6 rounded-md">
             <a href="https://forms.gle/aQNxmSDmU2BakDsL7" target="_blank" rel="noopener noreferrer">
               ¿Quieres aprender a pintar?
             </a>
@@ -29,10 +27,9 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
         <svg
-          className="w-6 h-6 text-[#00BCD4]"
+          className="w-6 h-6 text-[#0cd4ca]"
           fill="none"
           strokeLinecap="round"
           strokeLinejoin="round"

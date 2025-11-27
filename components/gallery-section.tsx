@@ -32,7 +32,7 @@ export default function GallerySection() {
               onClick={() => setFilter(filterOption)}
               className={`px-6 py-2 rounded-md font-medium transition-colors ${
                 filter === filterOption
-                  ? "bg-[#00BCD4] text-white"
+                  ? "bg-[#0cd4ca] text-white"
                   : "bg-white text-[#1D1D1D] hover:bg-[#B0B0B0] hover:text-white"
               }`}
             >

@@ -11,7 +11,7 @@ export const miniaturesData: Miniature[] = [
     tipo: "Miniature",
     imagenPrincipal: "https://drive.google.com/file/d/1BSpZ3i1yjjc_2uZMtIPdwaV6--GZFN0f/view?usp=sharing",
     imagenes: [
-      "1BSpZ3i1yjjc_2uZMtIPdwaV6--GZFN0f",
+      "/images/quijote/1.jpg",
       "https://drive.google.com/file/d/1BSpZ3i1yjjc_2uZMtIPdwaV6--GZFN0f/view?usp=sharing",
     ],
   },

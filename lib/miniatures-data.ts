@@ -8,8 +8,8 @@ export const miniaturesData: Miniature[] = [
     fecha: "Septiembre 2025",
     reconocimientos: ["Freak Wars 2025 - Oro en Busto Standard", "Ceramic Brush 2025 - Entrada Notable"],
     tipo: "Miniature",
-    imagenPrincipal: "https://betapainter.twic.pics/quijote/main/",
-    imagenes: ["https://betapainter.twic.pics/quijote/main/", "/images/quijote/2.jpg"],
+    imagenPrincipal: "/images/quijote/1.jpg",
+    imagenes: ["/images/quijote/1.jpg", "/images/quijote/2.jpg","/images/quijote/3.jpg","/images/quijote/4.jpg","/images/quijote/1w.jpg","/images/quijote/2w.jpg","/images/quijote/3w.jpg","/images/quijote/4w.jpg"],
   },
   {
     id: 2,

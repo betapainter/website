@@ -9,7 +9,7 @@ export const miniaturesData: Miniature[] = [
     reconocimientos: ["Freak Wars 2025 - Oro en Busto Standard", "Ceramic Brush 2025 - Entrada Notable"],
     tipo: "Miniature",
     imagenPrincipal: "https://betapainter.twic.pics/quijote/main/",
-    imagenes: ["/images/quijote/1.jpg", "/images/quijote/2.jpg"],
+    imagenes: ["https://betapainter.twic.pics/quijote/main/", "/images/quijote/2.jpg"],
   },
   {
     id: 2,

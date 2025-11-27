@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Álvaro Palacios - Pintor de Miniaturas</title>
-    <meta name="description" content="Galería de miniaturas y warhammer pintadas por Álvaro Palacios. Descubre trabajos detallados y aprende técnicas de pintura.">
-    
+    <meta name="description"
+        content="Galería de miniaturas y warhammer pintadas por Álvaro Palacios. Descubre trabajos detallados y aprende técnicas de pintura.">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <!-- Fixed Navigation -->
     <nav id="fixed-nav" class="fixed-nav">
@@ -37,18 +40,20 @@
         <section id="inicio" class="hero-section">
             <div class="hero-content">
                 <div class="hero-logo">
-                    <img src="/images/logo_bruto.png" alt="Álvaro Palacios Logo">
+                    <img src="public/images/logo_bruto.png" alt="Álvaro Palacios Logo">
                 </div>
                 <h1 class="hero-title">Álvaro Palacios</h1>
                 <p class="hero-subtitle">Pintor de miniaturas y warhammer</p>
                 <div class="hero-cta">
-                    <a href="https://forms.gle/aQNxmSDmU2BakDsL7" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                    <a href="https://forms.gle/aQNxmSDmU2BakDsL7" target="_blank" rel="noopener noreferrer"
+                        class="btn-primary">
                         ¿Quieres aprender a pintar?
                     </a>
                 </div>
             </div>
             <div class="scroll-indicator">
-                <svg class="scroll-arrow" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                <svg class="scroll-arrow" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                 </svg>
             </div>
@@ -58,7 +63,7 @@
         <section id="galeria" class="gallery-section">
             <div class="gallery-container">
                 <h2 class="section-title">Galería de Miniaturas</h2>
-                
+
                 <!-- Filter Buttons -->
                 <div class="filter-buttons">
                     <button class="filter-btn active" data-filter="Todas">Todas</button>
@@ -101,16 +106,19 @@
                 <h2 class="section-title">Contacto</h2>
                 <p class="contact-subtitle">Sígueme en redes sociales o contáctame</p>
                 <div class="social-links">
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link"
+                        aria-label="Instagram">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link"
+                        aria-label="Facebook">
                         <i class="fab fa-facebook"></i>
                     </a>
                     <a href="mailto:contacto@example.com" class="social-link" aria-label="Email">
                         <i class="fas fa-envelope"></i>
                     </a>
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter">
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link"
+                        aria-label="Twitter">
                         <i class="fab fa-twitter"></i>
                     </a>
                 </div>
@@ -125,7 +133,7 @@
             <button class="modal-close" aria-label="Cerrar">
                 <i class="fas fa-times"></i>
             </button>
-            
+
             <div class="modal-layout">
                 <!-- Image Carousel -->
                 <div class="modal-image-container">
@@ -145,18 +153,18 @@
                 <div class="modal-details">
                     <h2 id="modal-title" class="modal-title"></h2>
                     <p id="modal-description" class="modal-description"></p>
-                    
+
                     <div class="modal-info">
                         <div class="modal-info-item">
                             <h3 class="modal-info-label">Fecha</h3>
                             <p id="modal-date" class="modal-info-value"></p>
                         </div>
-                        
+
                         <div id="modal-awards-section" class="modal-info-item hidden">
                             <h3 class="modal-info-label">Reconocimientos</h3>
                             <ul id="modal-awards" class="modal-awards-list"></ul>
                         </div>
-                        
+
                         <div class="modal-info-item">
                             <h3 class="modal-info-label">Tipo</h3>
                             <span id="modal-type" class="modal-type-badge"></span>
@@ -176,4 +184,5 @@
     <script src="data.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

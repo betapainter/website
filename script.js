@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
   })
 
   // Gallery functionality
-  const miniaturesData = [] // Declare miniaturesData variable here
+  // miniaturesData is loaded from data.js
   let currentFilter = "Todas"
   let currentMiniature = null
   let currentImageIndex = 0

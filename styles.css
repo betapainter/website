@@ -98,9 +98,9 @@ body {
 }
 
 .hero-logo {
-  width: 12rem;
-  height: 12rem;
-  margin: 0 auto 1.5rem;
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto 1rem;
   position: relative;
 }
 
@@ -113,18 +113,18 @@ body {
 .hero-title {
   font-size: 3rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   letter-spacing: -0.02em;
 }
 
 .hero-subtitle {
   font-size: 1.5rem;
   color: var(--color-gray);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .hero-cta {
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .btn-primary {
@@ -158,10 +158,12 @@ body {
 }
 
 @keyframes bounce {
+
   0%,
   100% {
     transform: translateX(-50%) translateY(0);
   }
+
   50% {
     transform: translateX(-50%) translateY(-10px);
   }

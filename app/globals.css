@@ -3,7 +3,7 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Custom color theme for art gallery with all required shadcn tokens */
+/* Updated accent color from #00bcd4 to #0cd4ca throughout the theme */
 :root {
   --background: #f7f7f7;
   --foreground: #1d1d1d;
@@ -11,19 +11,19 @@
   --card-foreground: #1d1d1d;
   --popover: #ffffff;
   --popover-foreground: #1d1d1d;
-  --primary: #00bcd4;
+  --primary: #0cd4ca;
   --primary-foreground: #ffffff;
   --secondary: #b0b0b0;
   --secondary-foreground: #1d1d1d;
   --muted: #b0b0b0;
   --muted-foreground: #1d1d1d;
-  --accent: #00bcd4;
+  --accent: #0cd4ca;
   --accent-foreground: #ffffff;
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.985 0 0);
   --border: #b0b0b0;
   --input: #b0b0b0;
-  --ring: #00bcd4;
+  --ring: #0cd4ca;
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
@@ -32,12 +32,12 @@
   --radius: 0.25rem;
   --sidebar: #f7f7f7;
   --sidebar-foreground: #1d1d1d;
-  --sidebar-primary: #00bcd4;
+  --sidebar-primary: #0cd4ca;
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: #b0b0b0;
   --sidebar-accent-foreground: #1d1d1d;
   --sidebar-border: #b0b0b0;
-  --sidebar-ring: #00bcd4;
+  --sidebar-ring: #0cd4ca;
 }
 
 .dark {
@@ -47,19 +47,19 @@
   --card-foreground: #f7f7f7;
   --popover: #1d1d1d;
   --popover-foreground: #f7f7f7;
-  --primary: #00bcd4;
+  --primary: #0cd4ca;
   --primary-foreground: #ffffff;
   --secondary: #b0b0b0;
   --secondary-foreground: #1d1d1d;
   --muted: #b0b0b0;
   --muted-foreground: #f7f7f7;
-  --accent: #00bcd4;
+  --accent: #0cd4ca;
   --accent-foreground: #ffffff;
   --destructive: oklch(0.396 0.141 25.723);
   --destructive-foreground: oklch(0.637 0.237 25.331);
   --border: #b0b0b0;
   --input: #b0b0b0;
-  --ring: #00bcd4;
+  --ring: #0cd4ca;
   --chart-1: oklch(0.488 0.243 264.376);
   --chart-2: oklch(0.696 0.17 162.48);
   --chart-3: oklch(0.769 0.188 70.08);
@@ -67,12 +67,12 @@
   --chart-5: oklch(0.645 0.246 16.439);
   --sidebar: #1d1d1d;
   --sidebar-foreground: #f7f7f7;
-  --sidebar-primary: #00bcd4;
+  --sidebar-primary: #0cd4ca;
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: #b0b0b0;
   --sidebar-accent-foreground: #f7f7f7;
   --sidebar-border: #b0b0b0;
-  --sidebar-ring: #00bcd4;
+  --sidebar-ring: #0cd4ca;
 }
 
 @theme inline {

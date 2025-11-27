@@ -44,9 +44,8 @@ export default function FixedNav() {
     <nav className="fixed top-0 left-0 right-0 z-40 bg-[#1D1D1D]/95 backdrop-blur-sm border-b border-[#B0B0B0]/20">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          {/* Logo/Name */}
           <button onClick={() => scrollToSection("inicio")} className="hover:opacity-80 transition-opacity">
-            <img src="/logo.jpg" alt="Álvaro Palacios" className="h-10 w-auto object-contain" />
+            <img src="/images/logo_bruto.png" alt="Álvaro Palacios" className="h-10 w-auto object-contain" />
           </button>
 
           {/* Navigation Links */}
@@ -57,8 +56,8 @@ export default function FixedNav() {
                   onClick={() => scrollToSection(item.id)}
                   className={`px-3 md:px-4 py-2 text-sm md:text-base font-medium rounded-sm transition-colors ${
                     activeSection === item.id
-                      ? "bg-[#00BCD4] text-white"
-                      : "text-[#F7F7F7] hover:text-[#00BCD4] hover:bg-[#F7F7F7]/10"
+                      ? "bg-[#0cd4ca] text-white"
+                      : "text-[#F7F7F7] hover:text-[#0cd4ca] hover:bg-[#F7F7F7]/10"
                   }`}
                 >
                   {item.label}

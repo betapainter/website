@@ -3,7 +3,6 @@
 import { useState } from "react"
 import Image from "next/image"
 import type { Miniature } from "@/lib/types"
-import { getGoogleDriveImageUrl } from "@/lib/utils"
 
 interface GalleryCardProps {
   miniature: Miniature
@@ -21,7 +20,7 @@ export default function GalleryCard({ miniature, onClick }: GalleryCardProps) {
       onClick={onClick}
     >
       <Image
-        src={getGoogleDriveImageUrl(miniature.imagenPrincipal) || "/placeholder.svg"}
+        src={miniature.imagenPrincipal || "/placeholder.svg"}
         alt={miniature.nombre}
         fill
         className={`object-cover transition-transform duration-300 ${isHovered ? "scale-110" : "scale-100"}`}

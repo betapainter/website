@@ -4,7 +4,6 @@ import { useState, useEffect } from "react"
 import Image from "next/image"
 import { X, ChevronLeft, ChevronRight } from "lucide-react"
 import type { Miniature } from "@/lib/types"
-import { getGoogleDriveImageUrl } from "@/lib/utils"
 
 interface MiniatureModalProps {
   miniature: Miniature
@@ -59,7 +58,7 @@ export default function MiniatureModal({ miniature, onClose }: MiniatureModalPro
           {/* Image carousel */}
           <div className="relative md:w-2/3 aspect-[3/4] md:aspect-auto bg-[#1D1D1D]">
             <Image
-              src={getGoogleDriveImageUrl(miniature.imagenes[currentImageIndex]) || "/placeholder.svg"}
+              src={miniature.imagenes[currentImageIndex] || "/placeholder.svg"}
               alt={`${miniature.nombre} - Imagen ${currentImageIndex + 1}`}
               fill
               className="object-contain"
@@ -141,7 +140,7 @@ export default function MiniatureModal({ miniature, onClose }: MiniatureModalPro
                       } transition-opacity`}
                     >
                       <Image
-                        src={getGoogleDriveImageUrl(imagen) || "/placeholder.svg"}
+                        src={imagen || "/placeholder.svg"}
                         alt={`Thumbnail ${index + 1}`}
                         fill
                         className="object-cover"

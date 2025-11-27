@@ -4,16 +4,12 @@ export const miniaturesData: Miniature[] = [
   {
     id: 1,
     nombre: "Don Quijote de La Mancha",
-    descripcion:
-      "Busto de Don Quijote, escultura por Ogareg Miniatures.",
+    descripcion: "Busto de Don Quijote, escultura por Ogareg Miniatures.",
     fecha: "Septiembre 2025",
     reconocimientos: ["Freak Wars 2025 - Oro en Busto Standard", "Ceramic Brush 2025 - Entrada Notable"],
     tipo: "Miniature",
-    imagenPrincipal: "https://drive.google.com/file/d/1BSpZ3i1yjjc_2uZMtIPdwaV6--GZFN0f/view?usp=sharing",
-    imagenes: [
-      "/images/quijote/1.jpg",
-      "https://drive.google.com/file/d/1BSpZ3i1yjjc_2uZMtIPdwaV6--GZFN0f/view?usp=sharing",
-    ],
+    imagenPrincipal: "https://betapainter.twic.pics/quijote/main/",
+    imagenes: ["/images/quijote/1.jpg", "/images/quijote/2.jpg"],
   },
   {
     id: 2,

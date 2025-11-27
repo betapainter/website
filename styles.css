@@ -85,8 +85,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 2rem;
+  justify-content: flex-start;
+  padding: 1rem;
+  padding-top: 1.5rem;
   background-color: var(--color-dark);
   color: var(--color-light);
   position: relative;
@@ -98,9 +99,9 @@ body {
 }
 
 .hero-logo {
-  width: 20rem;
-  height: 20rem;
-  margin: 0 auto 1rem;
+  width: 30rem;
+  height: 30rem;
+  margin: 0 auto 0.5rem;
   position: relative;
 }
 
@@ -120,11 +121,11 @@ body {
 .hero-subtitle {
   font-size: 1.5rem;
   color: var(--color-gray);
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .hero-cta {
-  padding-top: 1rem;
+  padding-top: 0.5rem;
 }
 
 .btn-primary {
@@ -145,7 +146,7 @@ body {
 
 .scroll-indicator {
   position: absolute;
-  bottom: 2rem;
+  bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
   animation: bounce 2s infinite;

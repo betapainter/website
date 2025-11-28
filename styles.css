@@ -46,14 +46,13 @@ body {
   text-decoration: none;
 }
 
-.nav-logo-text {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--color-accent);
+.nav-logo-img {
+  height: 3rem;
+  width: auto;
   transition: opacity 0.3s;
 }
 
-.nav-logo-text:hover {
+.nav-logo-img:hover {
   opacity: 0.8;
 }
 
@@ -271,34 +270,25 @@ body {
   margin: 0 auto;
 }
 
-.events-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+.events-grid-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem 0;
 }
 
-.event-card {
-  background-color: rgba(247, 247, 247, 0.05);
-  padding: 2rem;
-  border-radius: 0.5rem;
-  border: 1px solid rgba(176, 176, 176, 0.2);
+.event-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
 }
 
-.event-date {
-  color: var(--color-accent);
-  font-weight: 600;
-  font-size: 0.875rem;
-  margin-bottom: 1rem;
-}
-
-.event-title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
-
-.event-description {
-  color: var(--color-gray);
+.event-image:hover {
+  transform: scale(1.05);
 }
 
 /* Contact Section */

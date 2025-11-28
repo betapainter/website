@@ -86,7 +86,7 @@ const miniaturesData = [
     fecha: "Septiembre 2024",
     reconocimientos: [],
     tipo: "Warhammer",
-    imagenPrincipal: "public/images/darkoath/1.jpg",
+    imagenPrincipal: "public/images/darkoath/main.jpg",
     imagenes: [
       "public/images/darkoath/1.jpg",
       "public/images/darkoath/2.jpg",
@@ -116,7 +116,7 @@ const miniaturesData = [
     fecha: "Diciembre 2023",
     reconocimientos: [],
     tipo: "Warhammer",
-    imagenPrincipal: "public/images/orkwarboss/1.jpg",
+    imagenPrincipal: "public/images/orkwarboss/main.jpg",
     imagenes: [
       "public/images/orkwarboss/1.jpg",
       "public/images/orkwarboss/2.jpg",
@@ -134,7 +134,7 @@ const miniaturesData = [
     fecha: "Junio 2024",
     reconocimientos: [],
     tipo: "Warhammer",
-    imagenPrincipal: "public/images/grotmas/1.jpg",
+    imagenPrincipal: "public/images/grotmas/main.jpg",
     imagenes: [
       "public/images/grotmas/1.jpg",
       "public/images/grotmas/2.jpg",
@@ -153,7 +153,7 @@ const miniaturesData = [
     fecha: "Octubre 2025",
     reconocimientos: [],
     tipo: "Warhammer",
-    imagenPrincipal: "public/images/rivergobbo/1.jpg",
+    imagenPrincipal: "public/images/rivergobbo/main.jpg",
     imagenes: [
       "public/images/rivergobbo/1.jpg",
       "public/images/rivergobbo/2.jpg",
@@ -167,7 +167,7 @@ const miniaturesData = [
     fecha: "Noviembre 2025",
     reconocimientos: [],
     tipo: "Miniaturas",
-    imagenPrincipal: "public/images/vangogh/1.jpg",
+    imagenPrincipal: "public/images/vangogh/main.jpg",
     imagenes: [
       "public/images/vangogh/1.jpg",
       "public/images/vangogh/2.jpg",
@@ -175,6 +175,20 @@ const miniaturesData = [
       "public/images/vangogh/4.jpg",
       "public/images/vangogh/5.jpg",
       "public/images/vangogh/6.jpg",
+    ],
+  },
+  {
+    id: 12,
+    nombre: "Scorpio",
+    descripcion: "Busto Scorpio de Yedharo. Este busto está ambientado en una noche estrellada con una iluminación de un fuego por la parte derecha ",
+    fecha: "Enero 2024",
+    reconocimientos: [],
+    tipo: "Miniaturas",
+    imagenPrincipal: "public/images/scorpio/main.jpg",
+    imagenes: [
+      "public/images/scorpio/1.jpg",
+      "public/images/scorpio/2.jpg",
+      "public/images/scorpio/3.jpg",
     ],
   },
 ]

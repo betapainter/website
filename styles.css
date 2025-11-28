@@ -575,11 +575,16 @@ body {
 
 @media (max-width: 640px) {
   .nav-links {
-    gap: 1rem;
+    display: none;
   }
 
-  .nav-link {
-    font-size: 0.875rem;
+  .hero-section {
+    padding: 1rem 0.5rem;
+  }
+
+  .hero-logo {
+    width: 18rem;
+    height: 18rem;
   }
 
   .hero-title {
@@ -587,10 +592,26 @@ body {
   }
 
   .hero-subtitle {
-    font-size: 1.125rem;
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .btn-primary {
+    font-size: 1rem;
+    padding: 0.875rem 1.5rem;
   }
 
   .section-title {
     font-size: 2rem;
+  }
+
+  .events-grid-images {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .event-image {
+    width: 250px;
+    height: 250px;
   }
 }

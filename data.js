@@ -185,6 +185,7 @@ const miniaturesData = [
     reconocimientos: [],
     tipo: "Miniaturas",
     imagenPrincipal: "public/images/scorpio/main.jpg",
+
     imagenes: [
       "public/images/scorpio/1.jpg",
       "public/images/scorpio/2.jpg",

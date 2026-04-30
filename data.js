@@ -191,4 +191,55 @@ const miniaturesData = [
       "public/images/scorpio/3.jpg",
     ],
   },
+{
+    id: 13,
+    nombre: "Rogue",
+    descripcion: "Interpretación de 'The Traveller' de @josemox, basada en una ilustración de @jorgesefy. Miniatura de @jmodels_modelismo adquirida en FreakWars 2024.",
+    fecha: "Diciembre 2025",
+    reconocimientos: [
+      "Oro en AMEBA - Categoría Miniatura 75mm Fantasía",
+      "Mención Especial en Squidmar Open - Categoría Master Miniatura"
+    ],
+    tipo: "Miniaturas",
+    imagenPrincipal: "public/images/rogue/main.jpg",
+    imagenes: [
+      "public/images/rogue/1.jpg",
+      "public/images/rogue/2.jpg",
+      "public/images/rogue/3.jpg",
+    ],
+  },
+  {
+    id: 14,
+    nombre: "The Cider-Picker Gnome",
+    descripcion: "Miniatura esculpida por @printnpaint_miniatures.",
+    fecha: "Enero 2026",
+    reconocimientos: [],
+    tipo: "Miniaturas",
+    imagenPrincipal: "public/images/cider-picker-gnome/main.jpg",
+    imagenes: [
+      "public/images/cider-picker-gnome/1.jpg",
+      "public/images/cider-picker-gnome/2.jpg",
+      "public/images/cider-picker-gnome/3.jpg",
+      "public/images/cider-picker-gnome/4.jpg",
+    ],
+  },
+  {
+    id: 15,
+    nombre: "Dwarf Blacksmith",
+    descripcion: "Miniatura esculpida por @printnpaint_miniatures (@leonardoescovarq) para el evento de la @asociacionrunesword.",
+    fecha: "Abril 2026",
+    reconocimientos: [
+      "Oro en RetoRunes 2026"
+    ],
+    tipo: "Miniaturas",
+    imagenPrincipal: "public/images/dwarf-blacksmith/main.jpg",
+    imagenes: [
+      "public/images/dwarf-blacksmith/1.jpg",
+      "public/images/dwarf-blacksmith/2.jpg",
+      "public/images/dwarf-blacksmith/3.jpg",
+      "public/images/dwarf-blacksmith/4.jpg",
+      "public/images/dwarf-blacksmith/5.jpg",
+    ],
+  },
+  
 ]

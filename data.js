@@ -18,7 +18,7 @@ const miniaturesData = [
     descripcion:
       "Mi interpretación pintada del icónico busto del Mandaloriano (Din Djarin) de la serie Star Wars. El enfoque principal fue lograr texturas metálicas realistas para la armadura Beskar y aplicar efectos de desgaste (polvo, desconchones) para reflejar sus duras travesías. Este es el camino. Escultura por SkullHill",
     fecha: "Marzo 2025",
-    reconocimientos: ["Freak Wars 2025 - Oro en Busto Standard", "Ceramic Brush 2025 - Entrada Notable"],
+    reconocimientos: ["Freak Wars 2025 - Oro en Busto Standard", "Ceramic Brush 2025 - Entrada Notable", "AMEBA 2026 - Plata Busto Fantasía"],
     tipo: "Miniaturas",
     imagenPrincipal: "public/images/mandalorian/main.jpg",
     imagenes: [
@@ -36,7 +36,7 @@ const miniaturesData = [
     nombre: "Aries",
     descripcion: "Figura de Aries esculpida por Joapala para Scale75. Fue un reto realizar la base con masilla y jugar con la iluminación del fuego.",
     fecha: "Agosto 2025",
-    reconocimientos: ["Freak Wars 2025 - Plata en Miniatura Individual"],
+    reconocimientos: ["Freak Wars 2025 - Plata en Miniatura Individual Standard", "AMEBA 2026 - Premio Especial Mitos y Leyendas"],
     tipo: "Miniaturas",
     imagenPrincipal: "public/images/aries/main.jpg",
     imagenes: [
@@ -54,7 +54,7 @@ const miniaturesData = [
     nombre: "Alice Cross",
     descripcion: "Figura de Alice Cross de Neko Galaxy, esculpida por Anna Kartashova.",
     fecha: "Mayo 2025",
-    reconocimientos: ["Freak Wars 2025 - Oro"],
+    reconocimientos: ["Freak Wars 2025 - Oro Busto Standard"],
     tipo: "Miniaturas",
     imagenPrincipal: "public/images/alice/main.jpg",
     imagenes: [
@@ -165,7 +165,7 @@ const miniaturesData = [
     nombre: "(Not) Self Portrait 1887",
     descripcion: "Busto de Van Gogh, esculpido por Selfix. El objetivo era simular el estilo de Van Gogh en su Autoretrato de 1887.",
     fecha: "Noviembre 2025",
-    reconocimientos: [],
+    reconocimientos: ["AMEBA 2026 - Oro Busto Histórico","Squidmar Open 2026 - Entrada Notable Master Busto"],
     tipo: "Miniaturas",
     imagenPrincipal: "public/images/vangogh/main.jpg",
     imagenes: [
@@ -197,8 +197,8 @@ const miniaturesData = [
     descripcion: "Interpretación de 'The Traveller' de @josemox, basada en una ilustración de @jorgesefy. Miniatura de @jmodels_modelismo adquirida en FreakWars 2024.",
     fecha: "Diciembre 2025",
     reconocimientos: [
-      "Oro en AMEBA - Categoría Miniatura 75mm Fantasía",
-      "Mención Especial en Squidmar Open - Categoría Master Miniatura"
+      "AMEBA 2026 - Oro Categoría Miniatura 75mm Fantasía",
+      "Squidmar Open 2026 - Entrada Notable Master Miniatura"
     ],
     tipo: "Miniaturas",
     imagenPrincipal: "public/images/rogue/main.jpg",

@@ -206,6 +206,9 @@ const miniaturesData = [
       "public/images/rogue/1.jpg",
       "public/images/rogue/2.jpg",
       "public/images/rogue/3.jpg",
+      "public/images/rogue/4.jpg",
+      "public/images/rogue/5.jpg",
+
     ],
   },
   {

@@ -191,4 +191,21 @@ const miniaturesData = [
       "public/images/scorpio/3.jpg",
     ],
   },
+{
+    id: 13,
+    nombre: "Rogue",
+    descripcion: "Una interpretación personal de 'The Traveller' de @josemox, basada en una ilustración de @jorgesefy. Figura adquirida en FreakWars 2024 de @jmodels_modelismo y pintada tras un año en espera.",
+    fecha: "Diciembre 2025",
+    reconocimientos: [
+      "Oro en AMEBA - Categoría Miniatura 75mm Fantasía",
+      "Mención Especial en Squidmar Open - Categoría Master Miniatura"
+    ],
+    tipo: "Miniaturas",
+    imagenPrincipal: "public/images/rogue/main.jpg",
+    imagenes: [
+      "public/images/rogue/1.jpg",
+      "public/images/rogue/2.jpg",
+      "public/images/rogue/3.jpg",
+    ],
+  },
 ]
